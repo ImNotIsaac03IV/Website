@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(0, 100%, 80%);
+    align-self: end;
+}
+#box2{
+    background-color: hsl(60, 100%, 80%);
+    align-self: center;
+}
+#box3{
+    background-color: hsl(120, 100%, 80%);
+}
+#box4{
+    background-color: hsl(240, 100%, 80%);
+}

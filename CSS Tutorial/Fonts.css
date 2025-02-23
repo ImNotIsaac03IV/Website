@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+}
+h4{
+    color: crimson;
+    font-family: Crimson Text, "consolas", sans-serif;
+}
+p{
+    color: #adff2f;
+    text-decoration: dotted underline;
+    font-size: 18px;
+}

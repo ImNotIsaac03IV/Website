@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(35, 38, 35);
+}
+
+h1{
+    color: white;
+}
+
+p{
+    background-color: grey;
+    color:aliceblue
+}
+
+#p1{
+    color:tomato;
+}
+
+#p2{
+    color:crimson
+}
+
+.odd{
+    color:red;
+}
+.even{
+    color:green
+}

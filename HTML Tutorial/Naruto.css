@@ -1,0 +1,14 @@
+body{
+    background-image: url("Pictures/Konohagakure.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgwidth{
+    width: 100px;
+}
+
+.picheight{
+    height: 150;
+}
