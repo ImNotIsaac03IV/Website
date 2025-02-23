@@ -56,6 +56,10 @@ body{
     align-items: center;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+    flex-direction: row-reverse;
+}
+.homeicon i{
+    font-size: 30px;
 }
 .homeicon:hover{
     transform: scale(1.1);
