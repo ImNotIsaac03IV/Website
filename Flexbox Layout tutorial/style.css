@@ -1,0 +1,96 @@
+/*--------------------FLEXBOX TUTORIAL--------------------*/
+.column-layout{
+    display: flex;
+}
+
+/*--------------------Three column layout*--------------------/
+/*1 is the baseline*/
+/*Order the flex boxes*/
+.main-column{
+    flex: 3;
+    order: 2;
+}
+.sidebar-one{
+    flex: 1;
+    order: 1;
+}
+.sidebar-two{
+    flex: 1;
+    order: 3;
+}
+
+/*--------------------Adding Margins (Spaces between the boxes)--------------------*/
+.call-out-container{
+    /*display: flex;*/
+    /*align-items: stretch; flex-end, flex-start, center, strech(default)*/
+    /*justify-content: space-between; Left, right, space-between*/
+}
+
+.call-out{
+    /*padding: 20px;*/
+    /*box-sizing: border-box*/
+    flex-basis: 30%;
+}
+
+.call-out:nth-child(1){background-color: red;}
+.call-out:nth-child(2){background-color: blue;}
+.call-out:nth-child(3){background-color: green;}
+
+/*--------------------Mobile / Responsive--------------------*/
+@media (min-width: 900px)
+{
+    .call-out-container
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*--------------------Multi rows of items--------------------*/
+.box-family{
+    display: flex;
+    flex-wrap: wrap; /*Makes content wrap around page, when display becomes small*/
+}
+
+/*--------------------Simple centering--------------------*/
+.banner{
+    display: flex;
+    height: 400px;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: darkgrey;
+}
+
+.center-me{
+    margin: auto;
+}
+
+/*--------------------Columns and Rows--------------------*/
+.equal-height-container{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.first{
+    background-color: darkgray;
+    padding: 20px;
+    flex: 1;
+}
+.second{
+    background-color: yellow;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.second-a{
+    background-color: green;
+    flex: 1;
+}
+.second-b{
+    background-color: blue;
+    flex: 1;
+}
+
+
+
